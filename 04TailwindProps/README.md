@@ -17,3 +17,9 @@
 ```bash
 npm install tailwindcss @tailwindcss/vite
 ```
+
+## 📚 Resources
+
+[React Fibre Architecture](https://github.com/acdlite/react-fiber-architecture)
+
+[TailWind vite install](https://drive.google.com/file/d/1mlmO0e479nASrxJ-YLImHoxpmwCymLHs/view)

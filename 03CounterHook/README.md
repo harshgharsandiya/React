@@ -30,3 +30,35 @@ return (
   </div>
 );
 ```
+
+
+## Interview Question
+
+```js
+const [counter, setCounter] = useState(0);
+
+setCounter(counter + 1);
+setCounter(counter + 1);
+setCounter(counter + 1);
+setCounter(counter + 1);
+```
+
+- ❌ This will not increment counter by 4.
+
+- React batches these updates in a single render cycle.
+
+- So, counter + 1 uses the same stale value each time.
+
+- ✅ Correct Way: Use Functional Updates
+```js
+setCounter(prevCounter => prevCounter + 1);
+setCounter(prevCounter => prevCounter + 1);
+setCounter(prevCounter => prevCounter + 1);
+setCounter(prevCounter => prevCounter + 1);
+```
+
+- ✅ Each callback gets the latest state value.
+
+- Used when the new state depends on the previous state.
+
+- This way, counter is properly incremented step-by-step.

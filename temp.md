@@ -26,7 +26,33 @@ npm install tailwindcss @tailwindcss/vite
 # Props
 it make components reusable
 
+---
 
+Interview React Specific 
+Counter decrement increment
+further more question 
+
+```
+setCounter(counter + 1);
+setCounter(counter + 1);
+setCounter(counter + 1);
+setCounter(counter + 1);
+```
+
+because there is batch vise operation 
+
+to do so
+
+- prevCounter = last update state
+
+```
+setCounter(prevCounter => prevCounter + 1);
+setCounter(prevCounter => prevCounter + 1);
+setCounter(prevCounter => prevCounter + 1);
+setCounter(prevCounter => prevCounter + 1);
+```
+
+beacuse in call back there is completin of one call bacck and other call back start
 
 
 
