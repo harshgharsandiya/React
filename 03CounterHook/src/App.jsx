@@ -16,13 +16,16 @@ function App() {
     // console.log("Value Added", Math.random(), counter);
     // counter ++;
     // setCounter(counter);
-    setCounter(counter + 1);
+
+    if(counter < 20)
+      setCounter(counter + 1);
   }
 
   const removeValue = () => {
     // counter --;
     // setCounter(counter);
-    setCounter(counter - 1);
+    if(counter >0)
+      setCounter(counter - 1);
   }
 
   return (
