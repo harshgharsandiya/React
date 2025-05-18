@@ -33,3 +33,12 @@ ReactDOM --> createRoot
 - `<> </>` fragment
 
 
+---
+
+- react create element in tree like structure
+
+- `{variable}` evaulated expression i.e., final outcome not full javascript
+
+- babble inject in React.createElement Element
+
+
