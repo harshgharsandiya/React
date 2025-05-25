@@ -30,6 +30,15 @@
   [📄 Fibre + Props Notes](04TailwindProps/README.md)
 
 
+### ✅ Day 2 – `24/05/2025`
+- 📌 **Topics Covered:**
+
+- 🧠 **Key Notes:**
+
+
+
+
+
 
 ## 📚 Resources
 
