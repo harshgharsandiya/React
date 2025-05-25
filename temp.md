@@ -1,3 +1,42 @@
+## Installation
+
+```
+npm create vite@latest
+cd project
+npm i
+
+npm install tailwindcss @tailwindcss/vite
+```
+
+### vite configuration
+```
+import tailwindcss from '@tailwindcss/vite'
+....
+ plugins: [
+    tailwindcss(),
+  ],
+....
+```
+
+### CSS
+```
+@import "tailwindcss";
+```
+
+### Start
+npm run devs
+
+
+
+
+
+
+
+
+
+
+
+
 createRoot -> create virtual DOM and only update only which is differ from Main DOM
 
 But if there are 2 consecutive updates is it possible to wait for 2 updates and changes after final instead of doing 2 changes standalone ?
