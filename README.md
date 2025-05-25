@@ -32,8 +32,15 @@
 
 ### ✅ Day 2 – `24/05/2025`
 - 📌 **Topics Covered:**
+05bgChanger5
+
+
+### ✅ Day 2 – `25/05/2025`
+- 📌 **Topics Covered:**
 
 - 🧠 **Key Notes:**
+
+
 
 
 
