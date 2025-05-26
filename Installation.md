@@ -1,6 +1,6 @@
 ## Installation
 
-```
+```React
 npm create vite@latest
 ```
 ```
