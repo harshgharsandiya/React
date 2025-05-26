@@ -32,10 +32,13 @@
 
 ### ✅ Day 2 – `24/05/2025`
 - 📌 **Topics Covered:**
-05bgChanger5
+- [05bgChanger](05bgChanger/README.md)
+- [06passwordGenerator](06passwordGenerator/README.md)
+- [07currencyConverter](07currencyConverter/README.md)
 
 
-### ✅ Day 2 – `25/05/2025`
+
+### ✅ Day 3 – `26/05/2025`
 - 📌 **Topics Covered:**
 
 - 🧠 **Key Notes:**
