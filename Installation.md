@@ -2,21 +2,29 @@
 
 ```
 npm create vite@latest
+```
+```
 cd project
+```
+```
 npm i
+```
 
+```
 npm install tailwindcss @tailwindcss/vite
 ```
 
 ### vite configuration
 ```
 import tailwindcss from '@tailwindcss/vite'
+```
 ....
+```
  plugins: [
     tailwindcss(),
   ],
-....
 ```
+....
 
 ### CSS
 ```
@@ -24,7 +32,9 @@ import tailwindcss from '@tailwindcss/vite'
 ```
 
 ### Start
-npm run devs
+```
+npm run dev
+```
 
 
 
