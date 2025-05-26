@@ -24,7 +24,7 @@ import tailwindcss from '@tailwindcss/vite'
     tailwindcss(),
   ],
 ```
-....
+
 
 ### CSS
 ```bash
@@ -37,76 +37,7 @@ npm run dev
 ```
 
 
+### References:
 
-
-
-
-
-
-
-
-
-
-createRoot -> create virtual DOM and only update only which is differ from Main DOM
-
-But if there are 2 consecutive updates is it possible to wait for 2 updates and changes after final instead of doing 2 changes standalone ?
-
-That is not immedidate update but after certain time
-
-React Fibre is algo responsible for update 
-- incremental rendering
-
-- Reconciliation
-- Diffing of list is performed using keys. Keys(stable, predicable, unique)
-
-
-
----
-
-
-# Task 
-1. Various Hooks
-2. Various Props
-
-```
-npm install tailwindcss @tailwindcss/vite
-```
-
-# Props
-it make components reusable
-
----
-
-Interview React Specific 
-Counter decrement increment
-further more question 
-
-```
-setCounter(counter + 1);
-setCounter(counter + 1);
-setCounter(counter + 1);
-setCounter(counter + 1);
-```
-
-because there is batch vise operation 
-
-to do so
-
-- prevCounter = last update state
-
-```
-setCounter(prevCounter => prevCounter + 1);
-setCounter(prevCounter => prevCounter + 1);
-setCounter(prevCounter => prevCounter + 1);
-setCounter(prevCounter => prevCounter + 1);
-```
-
-beacuse in call back there is completin of one call bacck and other call back start
-
-
-
-refernces:
-[https://github.com/acdlite/react-fiber-architecture]
-
-(TailWind vite install)[https://drive.google.com/file/d/1mlmO0e479nASrxJ-YLImHoxpmwCymLHs/view]
+[TailWind Vite Install](https://drive.google.com/file/d/1mlmO0e479nASrxJ-YLImHoxpmwCymLHs/view)
 
