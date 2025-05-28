@@ -6,7 +6,7 @@
 
 ## Timeline
 
-### ✅ Day 1 – `18/05/2025`
+### ✅ Day 1 
 - 📌 **Topics Covered:**
   - React Project Structure Understanding
   - `create-react-app` vs `vite`
@@ -30,7 +30,7 @@
   [📄 Fibre + Props Notes](04TailwindProps/README.md)
 
 
-### ✅ Day 2 – `24/05/2025`
+### ✅ Day 2 
 - 📌 **Topics Covered:**
 - [05bgChanger](05bgChanger/README.md)
 - [06passwordGenerator](06passwordGenerator/README.md)
@@ -40,8 +40,7 @@
 
 ### ✅ Day 3 – `26/05/2025`
 - 📌 **Topics Covered:**
-
-- 🧠 **Key Notes:**
+- [08reactRouter](08reactRouter/README.md)
 
 
 
