@@ -9,10 +9,10 @@
 ### ✅ Day 1 
 📌 **Topics Covered:**
 
-  [📄 01Basic](01vitereact/README.md)
-  [📄 02VirtualDOM](02custom_react/README.md)
-  [📄 03 Hooks Notes](03CounterHook/README.md)
-  [📄 04 Fibre + Props Notes](04TailwindProps/README.md)
+- [📄 01Basic](01vitereact/README.md)
+- [📄 02VirtualDOM](02custom_react/README.md)
+- [📄 03 Hooks Notes](03CounterHook/README.md)
+- [📄 04 Fibre + Props Notes](04TailwindProps/README.md)
 
 
 ### ✅ Day 2 
