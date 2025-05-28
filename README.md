@@ -7,31 +7,16 @@
 ## Timeline
 
 ### ✅ Day 1 
-- 📌 **Topics Covered:**
-  - React Project Structure Understanding
-  - `create-react-app` vs `vite`
+📌 **Topics Covered:**
 
-- 🧠 **Key Notes:**
-  - React component names must start with a **Capital Letter**.
-  - You can use **fragments** (`<> </>`) to wrap multiple elements without adding extra DOM nodes.
-
-  - `React.createElement()` creates elements in a **tree-like (virtual DOM) structure**.
-  - JSX expressions like `{variable}` only allow **evaluated JavaScript expressions**, not full statements (e.g., no `if`, `for`).
-  - **Babel** compiles JSX syntax into `React.createElement()` calls behind the scenes.
-
-  ```jsx
-  const name = "React";
-  const element = <h1>Hello, {name}</h1>;
-  // Babel transpiles this to:
-  React.createElement("h1", null, `Hello, ${name}`);
-  ```
-  [📄 Hooks Notes](03CounterHook/README.md)
-  
-  [📄 Fibre + Props Notes](04TailwindProps/README.md)
+  [📄 01Basic](01vitereact/README.md)
+  [📄 02VirtualDOM](02custom_react/README.md)
+  [📄 03 Hooks Notes](03CounterHook/README.md)
+  [📄 04 Fibre + Props Notes](04TailwindProps/README.md)
 
 
 ### ✅ Day 2 
-- 📌 **Topics Covered:**
+📌 **Topics Covered:**
 - [05bgChanger](05bgChanger/README.md)
 - [06passwordGenerator](06passwordGenerator/README.md)
 - [07currencyConverter](07currencyConverter/README.md)
@@ -39,7 +24,7 @@
 
 
 ### ✅ Day 3 – `26/05/2025`
-- 📌 **Topics Covered:**
+📌 **Topics Covered:**
 - [08reactRouter](08reactRouter/README.md)
 
 
