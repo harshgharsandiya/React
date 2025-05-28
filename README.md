@@ -53,8 +53,9 @@
 ---
 
 
-## 🎯 Goals
+## 🎯 Projects
 
-- [ ] Day1
+- [x] [01TodoApp](project/01TodoApp/)
+- [x] [02ModernTodo](project/02ModernTodo/)
 
 ---

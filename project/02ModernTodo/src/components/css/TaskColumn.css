@@ -1,0 +1,13 @@
+
+.task_column_heading {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.task_column_icon {
+    width: 30px;
+    margin-right: 5px;
+}
