@@ -61,7 +61,8 @@
 
 ## 🎯 Projects
 
-- [x] [01TodoApp](project/01TodoApp/)
-- [x] [02ModernTodo](project/02ModernTodo/)
+- [x] [01TodoApp](project/01TodoApp/README.md)
+- [x] [02ModernTodo](project/02ModernTodo/README.md)
+- [x] [03movieManiac](project/03movieManiac/README.md)
 
 ---

@@ -1,0 +1,90 @@
+.dark_mode {
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+/* Label container */
+.dark_mode_label {
+  position: relative; /* important for absolute children */
+  display: block;
+  width: 65px;
+  height: 30px;
+  background: #ebebeb;
+  border-radius: 200px;
+  box-shadow:
+    inset 0px 5px 15px rgba(0, 0, 0, 0.4),
+    inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* The toggle knob */
+.dark_mode_label:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(180deg, #ffcc89, #d8860b);
+  border-radius: 180px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s, background 0.3s, width 0.3s;
+}
+
+/* Hide the checkbox input */
+.dark_mode_input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+/* Background changes on checked */
+.dark_mode_input:checked + .dark_mode_label {
+  background: #242424;
+}
+
+/* Move knob on checked */
+.dark_mode_input:checked + .dark_mode_label:after {
+  left: calc(100% - 28px); /* 65 - 25 - 3 */
+  background: linear-gradient(180deg, #777, #3a3a3a);
+}
+
+/* Expand knob slightly when active (clicked) */
+.dark_mode_label:active:after {
+  width: 30px;
+}
+
+/* Images (sun & moon) styling */
+.dark_mode_label img.sun,
+.dark_mode_label img.moon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  z-index: 100;
+  transition: filter 0.3s;
+  user-select: none; /* prevent image selection */
+  pointer-events: none; /* allow clicks through images */
+}
+
+/* Sun on left */
+.dark_mode_label img.sun {
+  left: 5px;
+  filter: brightness(1);
+}
+
+/* Moon on right */
+.dark_mode_label img.moon {
+  left: 40px;
+  filter: brightness(0.5);
+}
+
+/* Toggle filter brightness when checked */
+.dark_mode_input:checked + .dark_mode_label img.sun {
+  filter: brightness(0.5);
+}
+
+.dark_mode_input:checked + .dark_mode_label img.moon {
+  filter: brightness(1);
+}
