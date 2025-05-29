@@ -1,3 +1,5 @@
+![Todo App](./ss/image.png)
+
 # 📦 Redux Toolkit Store Creation 
 
 1. Install Redux Toolkit & React-Redux
