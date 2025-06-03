@@ -36,6 +36,17 @@
 
 - [12reduxToolKitTodo](12reduxToolKitTodo/README.md)
 
+### ✅ Day 5
+📌 **Topics Covered:**
+
+- [13MegaBlog](13MegaBlog/README.md)
+
+### ✅ Day 6
+📌 **Topics Covered:**
+
+- [14Hooks](14Hooks/README.md)
+
+
 
 
 

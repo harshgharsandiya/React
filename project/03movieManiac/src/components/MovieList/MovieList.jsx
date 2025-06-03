@@ -5,7 +5,7 @@ import './MovieList.css'
 import MovieCard from './MovieCard'
 import FilterGroup from './FilterGroup';
 
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;  
 
 function MovieList({type, title, emogi}) {
 

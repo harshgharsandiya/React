@@ -1,0 +1,1 @@
+-   Reusable function which created by our own use which will use multiple times in our application
